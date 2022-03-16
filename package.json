@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio de projetos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruno-Oliveira-e-Oliveira/Portfolio.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Bruno Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruno-Oliveira-e-Oliveira/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Bruno-Oliveira-e-Oliveira/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
