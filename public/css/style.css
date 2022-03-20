@@ -1,0 +1,27 @@
+html, body, h1, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 10px;
+}
+
+.flex-item {
+    width: 100%;
+}
+
+header {
+    background-color: blue;
+}
+
+main {
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: brown;
+}
