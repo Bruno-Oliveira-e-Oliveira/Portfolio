@@ -1,22 +1,66 @@
 html, body, h1, ul, li, p {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
-.container-flex {
+.main-container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     row-gap: 10px;
 }
 
-.flex-item {
+.main-item {
     width: 100%;
 }
 
 header {
     background-color: blue;
 }
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-item:first-child {
+    margin-left: 5px;
+}
+
+.header-item:last-child {
+    margin-right: 5px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu-check {
+    display: none;
+}
+
+#menu-img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    /* background-color: brown; */
+    background-image: url('/img/menu-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#menu {
+    display: none;
+}
+
+
 
 main {
     background-color: blueviolet;
