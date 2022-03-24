@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="/js/index.js"></script>
 </head>
 <body>
     <div class="main-container">
         <header class="main-item header-container">
             <h1 class="header-item">Bruno de O. e Oliveira</h1>
-            <nav class="header-item">
+            <div class="header-item">
                 <label for="menu-check" id="menu-img"></label>
-                <input type="checkbox" id="menu-check">
-                <ul id="menu">
-                    <li><a href="#projects">Projetos</a></li><li><a href="#about">Sobre</a></li> 
+                <input type="checkbox" id="menu-check" onclick="show_menu()">                
+            </div>
+            <nav id="menu">
+                <ul >
+                    <li><a href="#projects" onclick="remove_menu()">Projetos</a></li><li><a href="#about" onclick="remove_menu()">Sobre</a></li> 
                 </ul>
             </nav>
             
