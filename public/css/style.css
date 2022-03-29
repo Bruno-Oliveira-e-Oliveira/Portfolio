@@ -29,7 +29,7 @@ html, body, h1, h2, ul, li, p {
     justify-content: space-between;
     height: 60px;
     box-sizing: border-box;    
-    background-color: blue;
+    background-color: #6932d4;
 }
 
 h1 {
@@ -57,7 +57,7 @@ h1 {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: blue;
+    background-color: #6932d4;
 }
 
 #menu li {
@@ -91,11 +91,10 @@ h1 {
 /* MAIN */
 
 main {
-    background-color: blueviolet;
+    background-color: #FFF;
 }
 
 #projects {
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -128,19 +127,37 @@ main {
     margin-bottom: 5px;
 }
 
-.project-technologies {
-  
-}
-
-
 #about {
-    background-color: chartreuse;
+    background-color: #6932d4;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
 }
 
+#about-image {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#about-description {
+    text-align: justify;
+    width: 90%;
+}
+
+#about-social-media-github img {
+    width: 64px;
+    height: 64px;
+}
 
 
 /*  FOOTER */
 
 footer {
-    background-color: brown;
+    background-color: #6932d4;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
 }
