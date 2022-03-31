@@ -103,6 +103,7 @@ h1 {
     box-sizing: border-box;
     width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 p {
@@ -125,6 +126,25 @@ p {
 
 .project-description {
     margin-bottom: 5px;
+}
+
+.project-technologies {
+    margin-bottom: 10px;
+}
+
+.project-repository {
+    display: block;
+    text-align: center;
+}
+
+.project-repository-link {
+    background-color: #2e00ff;
+    color: #f1f5f8;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 5px;
 }
 
 #about {
