@@ -97,6 +97,7 @@ h1 {
     row-gap: 20px;
     padding: 110px 0 50px 0;
     align-items: center;
+    width: 100%;
 }
 
 .project {
@@ -182,4 +183,126 @@ footer {
     color: #f1f5f8;
     padding-top: 50px;
     padding-bottom: 5px;
+}
+
+
+/* PC */
+
+@media screen and (min-width: 1200px){
+
+    /* HEADER */
+
+    .header-container {
+        padding: 10px 10px;
+        height: 70px;
+    }    
+
+    h1 {
+        font-size: 27px;
+    }    
+
+    #menu-check-container {
+        display: none;
+    }
+    
+    #menu {
+        display: block;
+        position: static;
+        background-color: inherit;
+        width: 20%;
+    }
+
+    #menu li {
+        display: inline-block;
+        border-top: none;
+        width: 50%;
+        box-sizing: border-box;
+    }
+    
+    #menu li:last-child {
+        border-bottom: none;
+    }
+    
+    #menu li a {
+        font-size: 19px;
+        border-radius: 5px;
+    }
+    
+    #menu li a:hover {
+        background-color: #f1f5f8;
+        color: #2e00ff;
+    }
+    
+    /* MAIN */
+
+    #projects {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    
+    .project {
+        width: 40%;
+    }
+    
+    .project-info {
+        padding: 20px 15px;
+    }
+    
+    .project-title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .project-description {
+        margin-bottom: 10px;
+    }
+    
+    .project-technologies {
+        margin-bottom: 20px;
+    }
+    
+    .project-repository {
+        display: block;
+        text-align: center;
+    }
+    
+    .project-repository-link {
+        background-color: #2e00ff;
+        color: #f1f5f8;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        display: inline-block;
+        border-radius: 5px;
+    }
+    
+    #about {
+        row-gap: 40px;
+        padding-top: 50px;
+    }
+    
+    #about-image {
+        width: 250px;
+        height: 250px;
+    }
+    
+    #about-description {
+        width: 80%;
+    }
+    
+    .about-social-media-link img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    /*  FOOTER */
+
+    footer {
+        font-size: 15px;
+    }
+
 }
