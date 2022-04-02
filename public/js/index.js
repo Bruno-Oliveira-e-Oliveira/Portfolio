@@ -10,8 +10,13 @@ function show_menu() {
 }; 
 
 function remove_menu() {
-    let menu = document.getElementById("menu");
-    let menucheck = document.getElementById("menu-check");
-    menu.style.display = 'none';
-    menucheck.checked = false;
+    if (screen.width < 1200) {
+        let menu = document.getElementById("menu");
+        let menucheck = document.getElementById("menu-check");
+        menu.style.display = 'none';
+        menucheck.checked = false;    
+    } else {
+        let menu = document.getElementById("menu");
+        menu.style.display = 'block';
+    }
 }
