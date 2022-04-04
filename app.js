@@ -1,8 +1,11 @@
 const express = require('express');
+const enviroment = require('./env');
 
 const app = express();
-// const host = '127.0.0.1';
-const port = 3000;
+
+const enviromentObject = enviroment()  
+const host = enviromentObject.host;
+const port = enviromentObject.port;
 
 app.use(express.static('public'));
 
