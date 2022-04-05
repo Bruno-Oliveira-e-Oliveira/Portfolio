@@ -148,6 +148,10 @@ p {
     border-radius: 5px;
 }
 
+.link-disable {
+    background-color: #454749;
+}
+
 #about {
     background-color: #2e00ff;
     display: flex;
@@ -238,7 +242,7 @@ footer {
     #projects {
         flex-wrap: wrap;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         row-gap: 20px;
         column-gap: 20px;
@@ -268,16 +272,6 @@ footer {
     .project-repository {
         display: block;
         text-align: center;
-    }
-    
-    .project-repository-link {
-        background-color: #2e00ff;
-        color: #f1f5f8;
-        text-decoration: none;
-        text-transform: uppercase;
-        padding: 15px 30px;
-        display: inline-block;
-        border-radius: 5px;
     }
     
     #about {
