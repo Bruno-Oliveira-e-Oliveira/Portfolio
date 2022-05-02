@@ -8,6 +8,6 @@
   <a href="#item">Item</a> •
 </h3>
 
-<h2 align="center">Como utilizar</h2>
+<h2 align="left">Como utilizar</h2>
 
-<h2 align="center">Licença</h2>
+<h2 align="left">Licença</h2>
