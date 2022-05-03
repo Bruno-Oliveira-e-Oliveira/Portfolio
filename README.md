@@ -11,3 +11,4 @@
 <h2 align="left">Como utilizar</h2>
 
 <h2 align="left">Licença</h2>
+<p align="left">Esse software está sob a licença <a href="https://github.com/Bruno-Oliveira-e-Oliveira/Portfolio/blob/main/LICENSE.md">MIT License</a></p>
