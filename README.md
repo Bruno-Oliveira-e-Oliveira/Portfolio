@@ -2,15 +2,13 @@
 <h1 align="center">PORTFÓLIO</h1>
 <p align="center">Portfólio criado com o objetivo de apresentar os projetos que eu desenvolvi</p>
 
-<br>
-
 <!-- <p align="center">Para acessar o site do projeto <a href="#">clique aqui</a></p> -->
 <h4 align="center">🚧 Projeto em desenvolvimento 🚧</h4>
 
 
 <h2>Como utilizar</h2>
 
-<p>Primeiramente verifique a instalação do <a href="https://git-scm.com/">Git</a> e do <a href="https://nodejs.org/en/">Node Js</a> em sua máquina, eles são os pré requisitos do projeto.</p>
+<p>Primeiramente verifique a instalação do <a href="https://git-scm.com/" target="_blank">Git</a> e do <a href="https://nodejs.org/en/" target="_blank">Node Js</a> em sua máquina, eles são os pré requisitos do projeto.</p>
 
 <p>Então acesse o terminal ou o prompt de comando do seu sistema operacional, na pasta em que deseja colocar o projeto.</p>
 
@@ -38,13 +36,12 @@ npm install
 npm start
 ```
 
-<p>Por fim acesse o <a href="http://localhost:3000/">localhost</a> pela porta 3000, para testar a aplicação.</p>
+<p>Por fim acesse o <a href="http://localhost:3000/" target="_blank">localhost</a> pela porta 3000, para testar a aplicação.</p>
 
 <h2>Licença</h2>
-<p>Esse software está sob a licença <a href="https://github.com/Bruno-Oliveira-e-Oliveira/Portfolio/blob/main/LICENSE.md">MIT License</a>.</p>
+<p>Esse software está sob a licença <a href="https://github.com/Bruno-Oliveira-e-Oliveira/Portfolio/blob/main/LICENSE.md" target="_blank">MIT License</a>.</p>
 
 <br>
 
 ---
-
-| Desenvolvido por Bruno de Oliveira e Oliveira. Para acessar meu LinkedIn <a href="https://www.linkedin.com/in/bruno-de-oliveira-e-oliveira/">clique aqui</a>. 
+| Desenvolvido por Bruno de Oliveira e Oliveira. Para acessar meu LinkedIn <a href="https://www.linkedin.com/in/bruno-de-oliveira-e-oliveira/" target="_blank">clique aqui</a>. 
