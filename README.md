@@ -1,10 +1,14 @@
-
 <h1 align="center">PORTFÓLIO</h1>
 <p align="center">Portfólio criado com o objetivo de apresentar os projetos que eu desenvolvi</p>
 
 <!-- <p align="center">Para acessar o site do projeto <a href="#">clique aqui</a></p> -->
 <h4 align="center">🚧 Projeto em desenvolvimento 🚧</h4>
 
+<br>
+
+![](public/gif/portfolio.gif)
+
+<br>
 
 <h2>Como utilizar</h2>
 
