@@ -8,7 +8,6 @@
 
 ![](public/gif/portfolio.gif)
 
-<br>
 
 <h2>Como utilizar</h2>
 
