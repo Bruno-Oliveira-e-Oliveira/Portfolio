@@ -8,25 +8,22 @@ const host = enviromentObject.host;
 const port = enviromentObject.port;
 
 app.use(express.static('public'));
+app.set('view engine', 'ejs');
+app.set('views', './views');
 
 app.get('', (req, res, next) => {
     console.log('Access done at ' + getDateNow())
-    res.sendFile('index.html', {"root": __dirname});
-});
-
-// ***************************************************** REMOVER
-app.get('/500', (req, res, next) => {
-    throw new Error('teste deu erro');
+    res.render('index');
 });
 
 app.use((req, res, next) => {
     console.log('Page not found. (' + getDateNow() +')');
-    res.status(404).send('Página não encontrada');
+    res.status(404).render('error', {statuscode: 404});
 });
 
 app.use((err, req, res, next) => {
     console.log('An unhandled exception occurred. (' + getDateNow() +')');
-    res.sendStatus(500);
+    res.status(500).render('error', {statuscode: 500});
 });
 
 app.listen(port, () =>{
