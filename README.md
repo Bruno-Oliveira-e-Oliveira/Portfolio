@@ -6,7 +6,7 @@
 
 <br>
 
-![](public/gif/portfolio.gif) 
+![](public/gif/portfolio2.gif)
 
 
 <h2>Como utilizar</h2>
