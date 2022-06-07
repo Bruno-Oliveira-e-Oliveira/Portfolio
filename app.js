@@ -12,17 +12,17 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 app.get('', (req, res, next) => {
-    console.log(`Access done. (DATE_NOW|${getDateNow()}) (IP|${req.ip})`)
+    console.log(`Access done. (DATE_NOW|${getDateNow()}) (IP|${req.headers['x-forwarded-for']}) (PATH|${req.path})`);
     res.render('index');
 });
 
 app.use((req, res, next) => {
-    console.log(`Page not found. (DATE_NOW|${getDateNow()}) (IP|${req.ip}) (PATH|${req.path})`);
+    console.log(`Page not found. (DATE_NOW|${getDateNow()}) (IP|${req.headers['x-forwarded-for']}) (PATH|${req.path})`);
     res.status(404).render('error', {statuscode: 404});
 });
 
 app.use((err, req, res, next) => {
-    console.log(`An unhandled exception occurred. (DATE_NOW|${getDateNow()}) (IP|${req.ip})`);
+    console.log(`An unhandled exception occurred. (DATE_NOW|${getDateNow()}) (IP|${req.headers['x-forwarded-for']}) (PATH|${req.path})`);
     res.status(500).render('error', {statuscode: 500});
 });
 
