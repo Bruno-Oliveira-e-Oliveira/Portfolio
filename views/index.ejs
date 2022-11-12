@@ -12,76 +12,83 @@
 <body>
     <div class="main-container">
         <header class="main-item header-container">
-            <h1 class="header-item">Bruno Oliveira</h1>
-            <div class="header-item" id="menu-check-container">
-                <label for="menu-check">
-                    <img src="/img/menu-icon.png" alt="menu icon" id="menu-img">
-                </label>
-                <input type="checkbox" id="menu-check" onclick="show_menu()">                
+            <img src="/img/perfilnovo.jpg" alt="Developer photo" id="perfil-image">
+            <div class="header-item header-desc">
+                <h1 class="header-item">Bruno Oliveira</h1>
+                <h2>Desenvolvedor de software</h2>
             </div>
-            <nav id="menu">
-                <ul>
-                    <li><a href="#projects" onclick="remove_menu()">Projetos</a></li><li><a href="#about" onclick="remove_menu()">Sobre</a></li> 
-                </ul>
-            </nav>
         </header>
     
         <main class="main-item">
-            <div id="projects">
-                <div class="project">
-                    <img src="/img/project-image-portfolio.png" alt="project image" class="project-image">
-                    <div class="project-info">
-                        <h2 class="project-title">Portifólio</h2>
-                        <p class="project-description">Site criado com o objetivo de apresentar os projetos que eu desenvolvi.</p>
-                        <p class="project-technologies"><strong>Tecnologias:</strong> HTML, CSS, Javascript, Node JS</p>
-                        <div class="project-repository">
-                            <a href="https://github.com/Bruno-Oliveira-e-Oliveira/Portfolio" class="project-repository-link" target="_blank">
-                                Repositório
-                            </a>
-                        </div>
+            <div id="information">
+                <div class="card">
+                    <div class="card-header">
+                        Experiência acadêmica
                     </div>
-                </div>         
 
-                <div class="project">
-                    <img src="/img/project-image-model.png" alt="project image" class="project-image">
-                    <div class="project-info">
-                        <h2 class="project-title">Epub reader</h2>
-                        <p class="project-description">Leitor de arquivos epubs (ebook) <br>Projeto em desenvolvimento.</p>
-                        <p class="project-technologies"><strong>Tecnologias:</strong> HTML, CSS, Javascript, Node JS, React JS</p>
-                        <div class="project-repository">
-                            <a href="https://github.com/Bruno-Oliveira-e-Oliveira/epub-reader" class="project-repository-link" target="_blank">
-                                Repositório
-                            </a>
-                        </div>
+                    <div class="card-description">
+                        <ul>
+                            <li>
+                                <span>ETEC Pedro Badran</span>
+                                <ul>
+                                    <li>Técnico em Informática</li>
+                                    <li>2015 - 2016</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>Fatec Franca - Faculdade de Tecnologia "Dr. Thomaz Novelino"</span>
+                                <ul>
+                                    <li>Tecnologia em Análise e Desenvolvimento de Sistemas</li>
+                                    <li>2017 - 2019</li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
-                </div>      
-                  
-            </div>
-    
-            <div id="about">
-                <img src="/img/perfil.jpg" alt="Developer photo" id="about-image">
-                <div id="about-description">
-                    <p>Seja bem-vindo(a) ao meu portifólio de projetos, sou Bruno de Oliveira e Oliveira, tenho 22 anos, sou formado como Tecnólogo em Análise e desenvolvimento de sistemas na <a href="https://site.fatecfranca.edu.br/" target="_blank" class="link">Fatec Franca Dr. Thomaz Novelino</a> no ano de 2019.</p>
-                    <br>
-                    <p>Trabalho com desenvolvimento de software há quase 4 anos, tendo trabalhado no primeiro ano como estagiário. Tenho experiência utilizando <a href="https://www.genexus.com/pt/" target="_blank" class="link">Genexus</a> para desenvolver aplicações web e desktop e já trabalhei em projetos envolvendo assuntos como notas fiscais eletrônicas e sistemas de faturamento. </p>
-                    <br>
-                    <p>Sobre meu conhecimento de línguas estrangeiras, consigo ler livros em inglês com certa facilidade, entretanto não tenho experiência com a habilidade de fala.</p>
                 </div>
-                <div id="about-social-media">
-                    <a href="https://github.com/Bruno-Oliveira-e-Oliveira" class="about-social-media-link" target="_blank">
-                        <img src="/img/GitHub-Mark-Light-120px-plus.png" alt="Github mark">
-                    </a> 
 
-                    <a href="https://www.linkedin.com/in/bruno-de-oliveira-e-oliveira/" class="about-social-media-link" target="_blank">
-                        <img src="/img/LI-In-Bug.png" alt="Linkedin mark">
-                    </a>                     
-                </div>
+                <div class="card">
+                    <div class="card-header">
+                        Experiência profissional
+                    </div>
+
+                    <div class="card-description">
+                        <ul>
+                            <li>
+                                <span>ACEDATA Software</span>
+                                <ul>
+                                    <li>Desenvolvimento de softwares web e desktop com Genexus</li>
+                                    <li>Integrações, NF-e, sistemas de faturamento e logística</li>
+                                    <li>Estágio: 2019</li>
+                                    <li>Tempo integral: 2020 - hoje</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>                
+
+                <div class="card">
+                    <div class="card-header">
+                        Línguas estrangeiras
+                    </div>
+
+                    <div class="card-description">
+                        <ul>
+                            <li>
+                                <span>Leitura em inglês</span>
+                            </li>
+                        </ul>                         
+                    </div>
+                </div>  
             </div>
+
+            <!-- <div id="projects">
+            </div>             -->
         </main>
     
-        <footer class="main-item">
+        <!-- <footer class="main-item">
             <span>Copyright &copy 2022 - Bruno de Oliveira e Oliveira</span>
-        </footer>
+        </footer> -->
+
     </div>
 </body>
 </html>
