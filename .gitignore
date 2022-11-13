@@ -105,3 +105,6 @@ dist
 
 #Environment
 env.json
+
+#images
+test-*.png
