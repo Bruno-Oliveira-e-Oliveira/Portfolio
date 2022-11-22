@@ -7,7 +7,6 @@
     <title>Bruno Oliveira</title>
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <script src="/js/index.js"></script>
 </head>
 <body>
     <div class="main-container">
@@ -23,7 +22,7 @@
             <div id="information">
                 <div class="card">
                     <div class="card-header">
-                        <img src="img/test-noun-book-1278122.png" alt="" class="card-image">
+                        <img src="/img/test-noun-book-1278122.png" alt="icon" class="card-image">
                         <h3 class="card-tittle">Experiência acadêmica</h3>
                     </div>
 
@@ -49,7 +48,7 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <img src="img/test-noun-work-3497807.png" alt="" class="card-image">
+                        <img src="/img/test-noun-work-3497807.png" alt="icon" class="card-image">
                         <h3 class="card-tittle">Experiência profissional</h3>                        
                     </div>
 
@@ -70,7 +69,7 @@
 
                 <div class="card">
                     <div class="card-header">                        
-                        <img src="img/test-noun-translation-16718.png" alt="" class="card-image">
+                        <img src="/img/test-noun-translation-16718.png" alt="icon" class="card-image">
                         <h3 class="card-tittle">Línguas estrangeiras</h3>                          
                     </div>
 
@@ -87,8 +86,68 @@
                 </div>  
             </div>
 
-            <!-- <div id="projects">
-            </div>             -->
+            <div id="projects">
+                <div id="projects-header">
+                    Projetos
+                </div>
+
+                <div id="slideshow">
+                    <div class="project">
+                        <img src="/img/project-portfolio.png" alt="" class="project-image">
+                        <div class="project-header">
+                            <span>Portifólio</span>
+                            <ul class="project-technologies">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Node JS</li>
+                            </ul>   
+                            <ul class="project-links">
+                                <li>                            
+                                    <a href="https://github.com/Bruno-Oliveira-e-Oliveira/Portfolio" target="_blank">
+                                        Repositório
+                                    </a>
+                                </li>
+                                <li>Acesso</li>
+                            </ul>                       
+                        </div>
+                    </div>
+                    
+                    <div class="project">
+                        <!-- <img src="/img/project-portfolio.png" alt="" class="project-image"> -->
+                        <div class="project-header">
+                            <span>Epub reader</span>
+                            <ul class="project-technologies">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Node JS</li>
+                            </ul>   
+                            <ul class="project-links">
+                                <li>                            
+                                    <a href="https://github.com/Bruno-Oliveira-e-Oliveira/epub-reader" target="_blank">
+                                        Repositório
+                                    </a>
+                                </li>
+                                <li>Acesso</li>
+                            </ul>                       
+                        </div>
+                    </div>
+                </div>
+
+                <div id="slide-controls">
+                    <div id="slide-arrows">
+                        <button onclick="setProject(-1, '+')"><</button>
+                        <button onclick="setProject(1,  '+')">></button>
+                    </div>
+
+                    <div id="slide-items">
+                        <button onclick="setProject(1, '=')">1</button>
+                        <button onclick="setProject(2, '=')">2</button>
+                    </div>
+                </div>
+
+            </div>            
         </main>
     
         <!-- <footer class="main-item">
@@ -96,5 +155,7 @@
         </footer> -->
 
     </div>
+
+    <script src="/js/slideshow.js"></script>
 </body>
 </html>
