@@ -5,12 +5,14 @@ function showProjects(index) {
     let divs = document.getElementsByClassName('project');
 
     if (index <= 0) {
-        index = 1;
+        index = divs.length;
     }
 
     if (index > divs.length) {
-        index = divs.length
+        index = 1;
     }
+
+    console.log(index)
 
     for (let divIndex = 0; divIndex < divs.length; divIndex++) {
         if (divIndex == (index - 1)) {
