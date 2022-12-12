@@ -218,16 +218,16 @@ h2 {
     justify-content: center;
     box-sizing: border-box;  
     row-gap: 5px;
-    color: #1b1f24;
+    color: #FFFFFF;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
 }
 
 .project-technologies li {
-    background-color: #FFFFFF;
+    background-color: #1b1f24;
     padding: 10px 13px;
-    border-right: 1px #1b1f24 solid;
+    border-right: 1px #FFFFFF solid;
 }   
 
 .project-technologies li:last-child {
@@ -312,20 +312,38 @@ h2 {
     box-sizing: border-box;
 }
 
-
-
-
 /*  FOOTER */
 
 footer {
-    background-color: #2e00ff;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;       
+    row-gap: 10px;
+
+    background-color: #131519;
     font-size: 13px;
-    color: #f1f5f8;
-    padding-top: 50px;
-    padding-bottom: 5px;
+    color: #FFFFFF;
+    padding: 20px 0 10px 0;
 }
 
+.media-links a {
+    height: 35px;
+    text-decoration: none;
+}
+
+.media-links a:last-child {
+    margin-left: 10px;
+}
+
+.media-links a img {
+    height: 35px;
+}
+
+.media-links a img:hover {
+    transform: scale(1.2);
+}
 
 /* PC */
 
